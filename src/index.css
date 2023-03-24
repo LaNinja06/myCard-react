@@ -19,7 +19,7 @@ body {
 }
 
 .header-logo {
-  background-image: url("src/public/gc.jpg");
+  background-image: url("/public/gc.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
