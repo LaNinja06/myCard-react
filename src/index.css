@@ -1,0 +1,125 @@
+/* myAPP */
+
+body {
+  background:#1A1B21;
+  color: white;
+  font-family: Inter;
+  max-width: 430px; 
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header */
+
+.header-container {
+  border-radius: 10px 10px 0 0;
+  background-color: whitesmoke;
+  padding-bottom: 35px;
+}
+
+.header-logo {
+  background-image: url("src/img/gc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+  padding: 40%;
+  border-radius: 10px 10px 0 0;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 0 0 20px 0;
+  line-height: 30px;
+  color: #1A1B21;
+}
+
+.title{
+  font-size: 16px;
+  margin-top: 6px;
+  margin-bottom: 0;
+  color: #d4a373;
+
+}
+
+.website {
+  font-size: 15px;
+  margin-top: 8px;
+  color: #1A1B21;
+  margin-bottom: 20px;
+}
+
+.btns{
+  display: flex;
+  justify-content: center;
+}
+
+.email-btn {
+  background-color: white;
+  color: #d4a373;
+  margin-right: 30px;
+  padding: 10px 27px;
+}
+
+.linkedin-btn {
+  background-color: #d4a373;
+  color: white;
+  padding: 10px 20px;
+}
+
+.linkedin-btn, .email-btn {
+  font-weight: 500;
+  font-size: 15px;
+  /* padding: 9px 13px 9px 11px; */
+  border-radius: 6px;
+  /* margin: 10px; */
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.linkedin-svg, .email-svg {
+  width: 10px;
+  margin-right: 5px;
+}
+
+/* Content */
+
+.content {
+  text-align: left;
+  padding: 10px 25px;
+  /* border: 2px solid white; */
+  margin-bottom: 20px;
+}
+
+.content > h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.content > text {
+  color: #DCDCDC;
+  font-size: 15px;
+}
+
+/* Footer */
+.footer {
+  background-color: whitesmoke ;
+  height: 50px;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.fb, .linkedin, .git, .twitter {
+  width: 25px;
+  cursor: pointer;
+}
